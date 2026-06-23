@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+node_modules/
+dist/
+.angular/
+altisoft_pgdata/
+
+*.log
+backend/uploads/
