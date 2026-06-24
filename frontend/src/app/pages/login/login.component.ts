@@ -13,8 +13,10 @@ import { Role } from '../../core/models';
     <main class="page-enter grid min-h-screen place-items-center px-4 py-10">
       <section class="grid w-full max-w-5xl overflow-hidden rounded-lg bg-white shadow-xl lg:grid-cols-[1fr_1.1fr]">
         <div class="bg-brand-950 px-10 py-12 text-white">
-          <p class="text-sm font-bold uppercase tracking-widest text-emerald-300">Altisoft</p>
-          <h1 class="mt-5 text-4xl font-extrabold leading-tight">CRM & Transacional corporativo</h1>
+          <div class="rounded-lg bg-white p-4 shadow-xl">
+            <img src="assets/brand/logo-altisoft.png" alt="Altisoft" class="mx-auto max-h-40 w-full object-contain">
+          </div>
+          <h1 class="mt-8 text-4xl font-extrabold leading-tight">CRM & Transacional corporativo</h1>
           <p class="mt-5 text-sm leading-6 text-blue-100">
             Operacao integrada para clientes, vendas, suporte, governanca e indicadores gerenciais.
           </p>

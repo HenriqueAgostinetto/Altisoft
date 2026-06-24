@@ -10,7 +10,9 @@ import { AuthService } from '../core/auth.service';
   template: `
     <aside class="fixed inset-y-0 left-0 hidden w-72 flex-col bg-brand-950 text-white lg:flex">
       <div class="flex h-20 items-center gap-3 border-b border-white/10 px-6">
-        <div class="grid h-10 w-10 place-items-center rounded-md bg-emerald-400 text-brand-950 font-extrabold">A</div>
+        <div class="grid h-12 w-12 place-items-center rounded-md bg-white p-1 shadow-sm">
+          <img src="assets/brand/logo-altisoft-mark.png" alt="Altisoft" class="h-full w-full object-contain">
+        </div>
         <div>
           <p class="font-extrabold">Altisoft</p>
           <p class="text-xs text-blue-100">CRM & Transacional</p>

@@ -17,9 +17,23 @@ Chart.register(...registerables);
       <p class="text-sm text-slate-500">KPIs protegidos por RBAC no backend e mascarados no frontend.</p>
 
       <div class="insight-panel mt-5">
-        <strong>Visao executiva</strong>
-        <p class="mt-1">Indicadores consolidados de clientes, suporte e desempenho comercial com visibilidade financeira conforme perfil de acesso.</p>
+        <div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+          <div>
+            <strong>Visao executiva</strong>
+            <p class="mt-1">Indicadores consolidados de clientes, suporte e desempenho comercial com visibilidade financeira conforme perfil de acesso.</p>
+          </div>
+          <img src="assets/brand/logo-altisoft-mark.png" alt="Altisoft Intelligence" class="h-16 w-16 rounded-md object-contain opacity-80">
+        </div>
       </div>
+
+      <section class="brand-watermark card mt-6 overflow-hidden">
+        <div class="relative z-10 max-w-3xl">
+          <p class="text-xs font-extrabold uppercase tracking-widest text-emerald-700">Altisoft Intelligence</p>
+          <h2 class="mt-2 text-xl font-extrabold text-slate-950">solucoes corporativas inteligentes para gestao, dados e crescimento</h2>
+          <p class="mt-2 text-sm text-slate-600">Uma plataforma integrada para decisao executiva, operacao comercial e atendimento tecnico.</p>
+        </div>
+        <img src="assets/brand/logo-altisoft-mark.png" alt="" class="pointer-events-none absolute -right-8 -top-10 h-48 w-48 object-contain opacity-5">
+      </section>
 
       <div class="mt-6 grid gap-4 md:grid-cols-3">
         <article class="card">

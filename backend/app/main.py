@@ -41,7 +41,7 @@ from .schemas import (
     UrgenciaResumo,
 )
 
-app = FastAPI(title="Altisoft API", version="1.0.0")
+app = FastAPI(title="Altisoft API", version="1.0.1")
 
 app.add_middleware(
     CORSMiddleware,
