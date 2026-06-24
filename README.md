@@ -12,6 +12,12 @@ Sistema corporativo em arquitetura desacoplada:
 
 O arquivo `altisoft-prototipo.html` foi preservado como protótipo inicial. A implementação modular está em `backend/` e `frontend/`.
 
+## Documentacao dos Modulos
+
+Para entender exatamente o que cada area do sistema faz, consulte:
+
+[MODULOS.md](./MODULOS.md)
+
 ## Estrutura
 
 ```txt
