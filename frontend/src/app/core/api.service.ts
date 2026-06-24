@@ -1,3 +1,4 @@
+// Henrique Agostinetto Piva
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { AuditLog, Cliente, ClienteDetalhe, ClienteInteracao, ClienteTarefa, DashboardResumo, Ticket, Transacao, TrashItem, UrgenciaResumo } from './models';

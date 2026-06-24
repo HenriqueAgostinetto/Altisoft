@@ -1,3 +1,4 @@
+// Henrique Agostinetto Piva
 export type Role = 'ADMIN' | 'VENDAS' | 'SUPORTE';
 
 export interface AuthUser {

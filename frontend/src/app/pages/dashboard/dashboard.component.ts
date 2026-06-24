@@ -1,3 +1,4 @@
+// Henrique Agostinetto Piva
 import { CommonModule, CurrencyPipe } from '@angular/common';
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { Chart, registerables } from 'chart.js';

@@ -1,3 +1,4 @@
+# Henrique Agostinetto Piva
 import csv
 import io
 import time
@@ -41,7 +42,7 @@ from .schemas import (
     UrgenciaResumo,
 )
 
-app = FastAPI(title="Altisoft API", version="1.0.1")
+app = FastAPI(title="Altisoft API", version="1.0.2")
 
 app.add_middleware(
     CORSMiddleware,

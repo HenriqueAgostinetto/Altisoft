@@ -1,9 +1,10 @@
+// Henrique Agostinetto Piva
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ApiService } from '../../core/api.service';
 import { AuthService } from '../../core/auth.service';
-import { Cliente, ClienteDetalhe } from '../../core/models';
+import { Cliente, ClienteDetalhe, ClienteTarefa } from '../../core/models';
 
 @Component({
   selector: 'app-crm',
@@ -299,7 +300,7 @@ export class CrmComponent implements OnInit {
     });
   }
 
-  completeTask(task: any): void {
+  completeTask(task: ClienteTarefa): void {
     this.api.updateTarefa(task.id, { ...task, status: 'CONCLUIDA' }).subscribe(() => this.openDetails(this.detalhe!.cliente));
   }
 
